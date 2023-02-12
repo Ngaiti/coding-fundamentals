@@ -1,0 +1,130 @@
+.container{
+    font-family: Helvetica;
+}
+
+h1{
+    font-size:48px;
+}
+
+header{
+    background-color: #f7ebeb;
+    padding: 15px;
+    display:flex;
+    text-align: left;
+    justify-content: space-evenly;
+    align-items:center;
+    color: #12191e;
+    flex-wrap: wrap;
+}
+
+#subheader{
+    width: 50%;
+    padding: 20px;
+
+}
+
+.tag {
+	background-color:#d73274;
+	border-radius:50px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+.tag:hover {
+	
+	background-color:#d47699;
+}
+
+.photo{
+    max-width: 375px;
+    max-height: 250px;
+    border-radius: 30px;
+    max-width: 100%;
+    
+}
+
+.blogcard{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.col1{
+    min-width: 30%;
+    min-height: 30%;
+    padding:15px;
+    text-align: center;
+    
+}
+
+.col2{
+    min-width: 30%;
+    min-height: 30%;
+    padding:15px;
+    text-align: center;
+    
+}
+.col3{
+    min-width: 30%;
+    min-height: 30%;
+    padding:15px;
+    text-align: center;
+    
+}
+.blogpic{
+    width: 225px ;
+    height: 150px;
+    border-radius: 30px;
+    padding:15px;
+    
+
+}
+
+.userpic{
+    height: 24px;
+    weight: 24px;
+    border-radius: 9999px;
+    position:
+}
+
+.userinfo{
+    padding-left:15px ;
+    padding-right: 15px;
+    display: flex;
+    font-size: 12px;
+    color: #44494c;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+footer{
+    padding:5px;
+    background-color: rgb(205, 203, 203);
+    text-align: center
+
+
+}
+
+
+
+@media (max-width:00px){
+    .blogcard{
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+    
+}
+
+$russian-violet: rgba(60, 22, 66, 1);
+$caribbean-current: rgba(8, 99, 117, 1);
+$turquoise: rgba(29, 211, 176, 1);
+$green-yellow: rgba(175, 252, 65, 1);
+$light-green: rgba(178, 255, 158, 1);
