@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Assignment 2</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<style>
+    .reviewcard{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 35px;
+        border: 3px solid rgb(147, 139, 139);
+        width: 40%;
+        border-radius: 30px;
+        }
+
+    .userpic{
+        height:60px;
+        width: 60px;
+        border-radius: 9999px;
+        
+        
+    }
+
+    .container1{
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+    }
+
+    .container2{
+        padding-left:30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+</style>
+
+
+<body>
+    <div class="reviewcard">
+        <div class="container1">        
+            <img class = "userpic" src="https://www.bu.edu/files/2022/01/Andy-Hallock-Headshot-Sqaure-crop.jpg" alt="random white guy">
+            <div class="container2">
+                <div class="username"> Sohai </div>
+                <div class="starrating">
+                    <p>&#9733; &#9734; &#9734; &#9734; &#9734;</p>
+                </div>
+            </div>    
+        </div>    
+        <br>
+        <div> This place is the worst in the entire universe, I demanded to see the manager but the person working there just took a step back then did a 360 and said "Hi I'm the manager". It's not funny!</div>
+    </div>
+</body>
+</html>
