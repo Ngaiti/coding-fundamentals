@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Capstone Project</title>
+    <link rel="stylesheet" href="flexboxcapstone.css">
+
+</head>
+<body>
+    <nav class="navibar">
+        <img class="logo" src="icons/local_library_FILL0_wght400_GRAD0_opsz48.png" alt="randomlogo">
+        <ul class="navilinks">
+            <li>Changelog</li>
+            <li>About</li>
+            <li>Partner</li>
+            <li>News</li>
+            <li class="login">Login</li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Call us now</h1>
+        Meow meow meow call meow meow meh whatever. Gotta write stuff. Something something.
+        I like eggs. Contact us to get eggs.
+    </header>
+
+    <br>
+   
+    <main class="container">
+        <div class="contactinfo">
+            <h2>Contact Information</h2>
+            <p>Feel free to contact us if you have any problems whatsoever. Or don't, we don't really care.</p>
+            <div class="contactnumber">
+                <img src="Icons/phone_in_talk_FILL1_wght400_GRAD0_opsz48.png" alt="phoneicon">    
+                <p>+97450237482</p>
+            </div>    
+            <div class="emailcontact">
+                <img src="Icons/mail_FILL1_wght400_GRAD0_opsz48.png" alt="emailicon">    
+                <p>dontemailme@gmail.com</p>
+            </div>    
+            <img class="socialicon" src="Icons/iconmonstr-facebook-5-240.png" alt="facebooklogo">
+            <img class="socialicon" src="Icons/iconmonstr-instagram-15-240.png" alt="instagramlogo">
+            <img class="socialicon" src="Icons/iconmonstr-twitter-5-240.png" alt="twitterlogo">
+
+
+        </div>
+
+
+        <div class ="form">
+            <div class="formrow1">
+                <div>
+                    First name: 
+                    <input type="text" name="username" placeholder="Your name..." required>
+                </div>
+
+                <div>
+                    Last name: 
+                    <input type="text" name="lastname" placeholder="Your last name...">
+                </div>
+            </div>
+            <div class="formrow2">
+                <div>
+                    Email: 
+                    <input type="email" name="email" placeholder="Your email address..." required>
+                </div>
+
+                <div>
+                    Phone: 
+                    <input type="tel" name="phonenumber" placeholder="Your phone number...">
+                </div>
+            </div>
+            <div>
+                Subject
+                <textarea maxlength="100" name="subject" placeholder="Write something.." required></textarea>
+            </div>
+            <div>
+                Message
+                <textarea maxlength="1000" class="message" name="comments" placeholder="Write something.." required></textarea>
+            </div>
+            <div>
+            <input type="submit" value="Submit">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
